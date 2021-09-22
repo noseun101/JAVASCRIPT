@@ -1,0 +1,12 @@
+h1 {
+  display: inline-block;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-weight: bold; /* 글자 굴게 지정 */
+  text-indent: 2em;  /* 들여쓰기 지정 */
+  color: blue;
+}
