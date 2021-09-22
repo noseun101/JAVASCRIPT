@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프론트엔드 개발자 지원 사이트</title>
+
+  <style>
+    ul {
+      list-style: none;
+    }
+    li {
+      line-height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>프론트엔드 개발자 지원 사이트</h1>
+  <p>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는
+    분을 찾습니다.
+  </p>
+  <hr>
+    <form>
+      <h2><b>개인정보</b></h2>
+      <ul>
+        <li>
+          <label for="name">이름</lable>
+          <input type="text" id="name" placeholder="공백 없이 입력하세요">
+        </li>
+        <li>
+          <label for="tel">연락처</lable>
+          <input type="text" id="tel">
+        </li>
+      </ul>
+      <h2><b>지원분야</b></h2>
+      <ul>
+        <li>
+          <label><input type="radio" name="field" value="pub">웹 퍼블리싱</label><br>
+          <label><input type="radio" name="field" value="app">웹 애플리케이션 개발</label><br>
+          <label><input type="radio" name="field" value="develop">개발환경 개선</label>
+         </li>
+      </ul>
+
+      <h2><b>지원동기</b></h2>
+      <textarea id="motive" cols="60" rows="5"
+        placeholder="본사 지원 동기를 간략히 써주세요."></textarea><br>
+      
+      <input type="button" value="접수하기">
+      <input type="button" value="다시쓰기">
+    </form>
+
+    <footer>
+      <p>참고: doit 자바스크립트 연습문제</p>
+      <p>작성자: 노승은</p>
+      <p>작성일: 2021-09-23</p>
+    </footer>
+    
+</body>
+</html>
+
