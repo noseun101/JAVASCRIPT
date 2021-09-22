@@ -6,7 +6,7 @@ h1 {
 }
 
 p {
-  font-weight: bold; /* 글자 굴게 지정 */
+  font-weight: bold; /* 글자 굵게 지정 */
   text-indent: 2em;  /* 들여쓰기 지정 */
   color: blue;
 }
