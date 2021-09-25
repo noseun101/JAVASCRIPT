@@ -6,7 +6,7 @@
 h1 {
    display: inline-block; 
    background-color: navy;
-   color: white;
+   color: rgba(255, 255, 255, 0.918);
 }
 
 .accent {
