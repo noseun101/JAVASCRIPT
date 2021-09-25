@@ -1,0 +1,45 @@
+ #container {
+  padding: 5px;
+  text-align: center;
+ }
+ #check-p {
+   margin: 0 auto;
+   width: 700px;
+   border: 1px solid grey;
+   text-align: center;
+ }
+
+ h1 {
+   color: white;
+   background-color: black;
+   font-size: 1.2em;
+   margin: 0;
+   padding: 10px;
+ }
+
+ h2 {
+   color: #ff0000;
+   font-size: 1.5em;
+ }
+ 
+ .accent {
+   color: #0000ff;
+ }
+ p{
+   /* 텍스트 굵기 */
+   font-weight: bold;
+   font-size: 1.2em;
+   /* 텍스트 줄 간격 */
+   line-height: 2em;
+ }
+ .smalltext {
+   /* 텍스트 글자 크기 */
+   font-size: 0.7em;
+ }
+
+
+/* 오류 
+1. 지정한 사진을 가운데로 정렬하지 못했음
+  해결: 검색 결과 상위 <div>는 하위<img>에게 상위의 속성을 상속해주므로
+        text-align:center;로 가운데 정렬하게 된다.
+        1. text-align: center;  2. display:block 활용
